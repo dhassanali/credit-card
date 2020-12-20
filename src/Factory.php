@@ -33,12 +33,12 @@ class Factory
         Discovery::class,
         Jcb::class,
         Hipercard::class,
+        Mada::class,
         Mastercard::class,
         UnionPay::class,
         Visa::class,
         Mir::class,
         Troy::class,
-        Mada::class,
     ];
 
     /**
