@@ -9,6 +9,7 @@ use LVR\CreditCard\Cards\Discovery;
 use LVR\CreditCard\Cards\Forbrugsforeningen;
 use LVR\CreditCard\Cards\Hipercard;
 use LVR\CreditCard\Cards\Jcb;
+use LVR\CreditCard\Cards\Mada;
 use LVR\CreditCard\Cards\Maestro;
 use LVR\CreditCard\Cards\Mastercard;
 use LVR\CreditCard\Cards\Mir;
@@ -37,6 +38,7 @@ class Factory
         Visa::class,
         Mir::class,
         Troy::class,
+        Mada::class,
     ];
 
     /**
