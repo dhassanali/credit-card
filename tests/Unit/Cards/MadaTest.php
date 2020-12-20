@@ -37,7 +37,7 @@ class MadaTest extends BaseCardTests
     public function numbersWithInvalidCheckSum(): Collection
     {
         return collect([
-            '5297412542005689',
+            '5121647321685222',
         ]);
     }
 }

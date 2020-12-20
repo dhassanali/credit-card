@@ -46,7 +46,7 @@ class Mada extends Card implements CreditCard
      *
      * @var array
      */
-    protected $cvc_length = [3, 4];
+    protected $cvc_length = [3];
 
     /**
      * Test cvc code checksum against Luhn algorithm.
